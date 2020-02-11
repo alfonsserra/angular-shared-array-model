@@ -1,0 +1,28 @@
+<div class="container-fluid mt-4">
+  <form class="pt-2">
+
+    <label class="h4 slab-form-title">Component Two</label>
+
+    <div class="row mt-1">
+      <label for="A1" class="col-md-2 col-form-label text-truncate">Line 1</label>
+      <div class="col-md-10">
+        <input #additionalInfo type="text" class="form-control" id="A1" name="A1" (blur)="doChange('A1',$event)">
+      </div>
+    </div>
+
+    <div class="row mt-1">
+      <label for="A2a" class="col-md-2 col-form-label text-truncate">Line 2.a</label>
+      <div class="col-md-10">
+        <input #additionalInfo type="text" class="form-control" id="A2a" name="A2a" (blur)="doChange('A2a',$event)">
+      </div>
+    </div>
+
+    <div class="row mt-1">
+      <label for="A2b" class="col-md-2 col-form-label text-truncate">Line 2.b</label>
+      <div class="col-md-10">
+        <input #additionalInfo type="text" class="form-control" id="A2b" name="A2b" (blur)="doChange('A2b',$event)">
+      </div>
+    </div>
+
+  </form>
+</div>
