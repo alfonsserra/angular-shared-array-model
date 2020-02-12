@@ -4,8 +4,7 @@ import { AdditionalInformationService } from '../main-component/additional-infor
 
 @Component({
   selector:    'app-component-one',
-  templateUrl: './component-one.component.html',
-  styleUrls:   ['./component-one.component.scss']
+  templateUrl: './component-one.component.html'
 })
 export class ComponentOneComponent implements OnInit, OnDestroy {
 
